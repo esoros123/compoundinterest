@@ -5,6 +5,16 @@
   text-align: center;
 }
 
+.hover-animated {
+  transform: scale(1.0); 
+  transition-duration: 1s;
+}
+
+.hover-animated:hover {
+  transform: scale(1.2); 
+  transition-duration: 1s;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
